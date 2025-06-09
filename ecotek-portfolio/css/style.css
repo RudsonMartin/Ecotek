@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.capa {
+    background-image: url('../img/capa.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.capa-conteudo {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.capa h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.sobre, .projetos {
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.projeto {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.projeto img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
